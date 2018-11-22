@@ -1,0 +1,31 @@
+.team {
+  background: url("../../img/bg/team.jpg") 50% no-repeat;
+  background-size: cover;
+  position: relative; }
+  .team .section__title {
+    margin-bottom: 12%; }
+
+.team__content {
+  text-align: center; }
+
+.team__section {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 50%;
+  background: rgba(47, 50, 52, 0.93);
+  padding: 5% 2% 0 7%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column; }

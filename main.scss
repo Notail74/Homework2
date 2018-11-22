@@ -1,0 +1,44 @@
+//colors
+$orange: #e45028;
+$yellow: #f9b43b;
+$black: #2f3234;
+$red: #e35028;
+//breackpoints
+$phones: 480px;
+$tablets: 768px;
+
+@import "css/normalize.scss";
+@import "css/media.scss";
+@import "css/layout.scss";
+@import "fonts/fonts.scss";
+
+
+// setups
+//@import "_misc/mixins";
+
+
+//common
+//@import "blocks/common/btn.scss";
+
+// blocks
+@import "blocks/nav.scss";
+@import "blocks/hero.scss";
+@import "blocks/header.scss";
+@import "blocks/btn.scss";
+@import "blocks/title.scss";
+@import "blocks/best.scss";
+@import "blocks/reviews.scss";
+@import "blocks/form.scss";
+@import "blocks/to-next.scss";
+@import "blocks/team.scss";
+@import "blocks/team-acco.scss";
+@import "blocks/menu.scss";
+@import "blocks/menu-acco.scss";
+@import "blocks/map.scss";
+@import "blocks/footer.scss";
+@import "blocks/best.scss";
+@import "blocks/team.scss";
+@import "blocks/reviews.scss";
+@import "blocks/hamburger-menu-link.scss";
+@import "blocks/fixed-menu.scss"
+// @import "blocks/order.scss";

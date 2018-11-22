@@ -1,0 +1,33 @@
+.title {
+    color: #f9b43b;
+    margin: 0 auto;
+    text-align: center;
+    margin-left: rem(5px);
+    font-size: rem(72px);
+    font-family: 'Gagalin-Regular', sans-serif;
+    line-height: 1.181;
+    padding-top: rem(100px);
+    padding-bottom: rem(55px);
+    &--color-black {
+        color: black;
+       margin: 0 auto;
+        color: rgb(47, 50, 52);
+        line-height: 0.889;
+        
+    }
+    @include  tablets   {
+        margin-left: rem(5px);
+        font-size: rem(63px);
+        padding-top: rem(10px);
+        padding-bottom: rem(5px);
+        margin: 0 auto;
+        text-align: center;
+        &--color-black {
+            color: black;
+           margin: 0 auto;
+            color: rgb(47, 50, 52);
+            line-height: 0.889;
+            padding-bottom: rem(100px);
+        }
+    }
+}

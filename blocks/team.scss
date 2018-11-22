@@ -1,0 +1,53 @@
+.team {
+	background: url("../maketitems/teambg.jpg") 50% no-repeat;
+	background-size: cover;
+  position: relative;
+  @include tablets {
+    background: url("../maketitems/teambg2.jpg") center center / cover no-repeat;
+  }
+}
+.section__title {
+  display: flex;
+  justify-content: flex-start;
+  font-size: rem(72px);
+  font-family: 'Gagalin-Regular', sans-serif;
+  line-height: 1.181;
+  color: #f9b43b;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: rem(55px);
+}
+.section__title.section__title_white.menu__title {
+  color: #ffffff;
+}
+
+.team__content {
+  text-align: center;
+  margin: 0 auto;
+  height: 88%;
+  
+  @include tablets {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    background: rgba(#2f3234, .93);
+  }
+  
+}
+
+.team__section {
+	position: absolute;
+	right: 0;
+	top: 0;
+  bottom: 0;
+  width: 50%;
+  padding: 5% 2% 0 7%;
+  @include tablets {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+

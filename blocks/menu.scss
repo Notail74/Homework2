@@ -1,0 +1,15 @@
+.menu {
+	background: url('../maketitems/menubg2.jpg') 50% no-repeat;
+	background-size: cover;
+	position: relative;
+	@include phones {
+		background: url('../maketitems/bgmenuphones.jpg') 50% no-repeat;
+	}
+}
+
+.menu__title {
+	position: absolute;
+	top: 10%;
+	left: 10%;
+	color: #ffffff;
+}

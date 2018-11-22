@@ -1,0 +1,65 @@
+.menu-acco {
+	position: absolute;
+	right: 0;
+	top: 0;
+	bottom: 0;
+  display: flex;
+}
+
+.menu-acco__item {
+	height: 100%;
+
+	&.active {
+		.menu-acco__trigger-text {
+			color: #f9b43b;
+		}
+	}
+}
+
+.menu-acco__trigger {
+	width: 80px;
+	display: block;
+	height: 100%;
+	float: left;
+	//@include cover;
+	text-decoration: none;
+	position: relative;
+	background-position: center;
+  background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.menu-acco__trigger-text {
+	color: #fff;
+	font-family: 'Gagalin-Regular', sans-serif;
+	text-align: center;
+	white-space: nowrap;
+  position: absolute;
+  transform: rotate(-90deg) translateY(-50%);
+  transform-origin: 0 0;
+  left: 50%;
+  top: 100%;
+	margin-top: rem(-20px);
+	font-size: rem(40 px);
+	color: rgb(255, 255, 255);
+	line-height: 1.601;
+	padding-left: rem(20px);
+}
+
+.menu-acco__content {
+	height: 100%;
+	float: left;
+	background: rgba(#2f3234, .93);
+	width: 0;
+	overflow: hidden;
+}
+
+.menu-acco__text {
+	font-family: 'Ubuntu-Light', sans-serif;
+	font-size: rem(14px);
+	color: #fff;
+	padding: rem(60px) rem(30px);
+	width: 100%;
+  line-height: 1.8;
+  display: none;
+}
