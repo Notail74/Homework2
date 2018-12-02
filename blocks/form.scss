@@ -50,9 +50,9 @@
   
   .order__form-row {
     margin-bottom: 1rem;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex; }
+    display: flex;
+    margin-left: rem(-10px);  
+  }
   
   .order__form-label {
     margin-bottom: rem(4px);
@@ -90,13 +90,6 @@
     flex: 1;
     margin-left: 10px;
   }
-  
-  .order__form-row {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    margin-left: rem(-10px); 
-}
   
   .order__form-input_textarea {
     height: 6.875rem;
@@ -194,4 +187,6 @@
          
      }
  }
-  
+.order__form-buttons {
+  padding-left: rem(7px);
+}

@@ -1,10 +1,9 @@
 .header {
     padding-top: rem(12px);
     display: flex;
-    align-items: center;
+    //align-items: center;
     justify-content: space-between;
     max-width: rem(960px);
-    margin: auto;
     padding: rem(12px) rem(10px);
     @include phones(){ 
         font-size: 10px;
@@ -15,9 +14,7 @@
     align-items: center;
     font-family: 'Ubuntu-Medium', sans-serif;
 }
-.hero__conteiner {
-    display: flex;
-}
+
 .header__links {
     display: flex;
     align-items: center;

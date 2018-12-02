@@ -17,7 +17,7 @@
 }
 
 .menu-acco__trigger {
-	width: 80px;
+	width: rem(80px);
 	display: block;
 	height: 100%;
 	float: left;
@@ -40,7 +40,7 @@
   left: 50%;
   top: 100%;
 	margin-top: rem(-20px);
-	font-size: rem(40 px);
+	font-size: rem(40px);
 	color: rgb(255, 255, 255);
 	line-height: 1.601;
 	padding-left: rem(20px);

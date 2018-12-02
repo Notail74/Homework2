@@ -1,5 +1,7 @@
 .best {
  background: url(../maketitems/best23.jpg) center center / cover no-repeat;
+ display: flex;
+ align-items: center;
 }
 .best__list {
     display: flex;

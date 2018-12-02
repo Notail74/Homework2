@@ -1,9 +1,11 @@
-.team {
-	background: url("../maketitems/teambg.jpg") 50% no-repeat;
+.section.team {
+	background: url("../maketitems/teambg3.jpg") 50% no-repeat;
 	background-size: cover;
   position: relative;
   @include tablets {
-    background: url("../maketitems/teambg2.jpg") center center / cover no-repeat;
+    background: url("../maketitems/teambgtablets.jpg")100% no-repeat;
+    background-size: cover;
+    
   }
 }
 .section__title {
@@ -32,7 +34,6 @@
     justify-content: center;
     flex-direction: column;
     height: 100%;
-    background: rgba(#2f3234, .93);
   }
   
 }
@@ -44,10 +45,11 @@
   bottom: 0;
   width: 50%;
   padding: 5% 2% 0 7%;
+  background: rgba(#2f3234, .93);
   @include tablets {
     width: 100%;
     padding: 0;
+    background: none;
   }
 }
-
 

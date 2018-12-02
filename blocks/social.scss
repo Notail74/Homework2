@@ -1,0 +1,17 @@
+.socials__link-icon {
+ width: rem(20px);
+ height: rem(20px);
+ fill:currentColor;
+}
+.socials {
+    display: flex;
+}
+.socials__link {
+    :hover {
+        color: #ffffff;
+    }
+    color: #585858;
+}
+.socials__item {
+    margin-left: rem(20px);
+}

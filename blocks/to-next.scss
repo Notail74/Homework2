@@ -1,7 +1,11 @@
 .to-next {
     display: flex;
     text-align: center;
-    padding-top: rem(200px);
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding-bottom: rem(20px);
 }
 .to-next-section {
     width: 100%;
