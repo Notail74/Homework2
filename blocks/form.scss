@@ -68,11 +68,12 @@
     padding: 0.3125rem 0.625rem;
     border: 0.0625rem solid #d1cfcb;
     border-radius: 0.3125rem;
-    width: 100%; 
+    width: 100%;
+    outline: none; 
     
 }
 .order__form-input:focus {
-    border: rem(5px) solid #f9b43b;
+    border: rem(3px) solid #f9b43b;
 
 }
 .order__form-block.phones-none {

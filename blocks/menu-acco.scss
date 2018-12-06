@@ -10,6 +10,13 @@
 	height: 100%;
 
 	&.active {
+		.menu-acco__text {
+			display: block;
+			
+		}
+		.menu-acco__content {
+			width: rem(600px);
+		}
 		.menu-acco__trigger-text {
 			color: #f9b43b;
 		}

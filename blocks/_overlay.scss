@@ -1,0 +1,45 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(31, 33, 34, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10000;
+}
+
+.container__overlay {
+  position: relative;
+    width: 40%;
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 1.875rem 1.25rem;
+    height: 40%;
+    display: flex;
+    align-items: center;
+}
+
+
+.close {
+  color: #f09d86;
+  position: absolute;
+  right: 10px;
+  top: 4px;
+  background: none;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 30px;
+}
+.content {
+  font-size: 14px;
+  font-family: "Ubuntu", sans-serif;
+  color: rgb(47, 50, 52);
+  line-height: 1.714;
+}

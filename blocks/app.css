@@ -1,0 +1,115 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.container {
+  max-width: 960px;
+  padding: 20px 10px;
+  margin: 0 auto; }
+
+.mobile-hamburger {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 30px;
+  height: 30px;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+
+.mobile-hamburger span {
+  width: 100%;
+  height: 3px;
+  background: #f00; }
+
+.section {
+  min-height: 100vh; }
+
+.title {
+  font-size: 71.713px;
+  font-family: "Gagalin", sans-serif;
+  color: white;
+  line-height: 0.889; }
+
+.digmenu {
+  background-image: url(../maketitems/menubg2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; }
+
+.bigmenu__list {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  padding: 0;
+  margin: 0;
+  list-style: none; }
+
+.bigmenu__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.bigmenu__title {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 80px;
+  position: relative;
+  font-size: 40px;
+  font-family: "Gagalin", sans-serif;
+  color: white;
+  line-height: 1.601;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end; }
+
+.bigmenu__title span {
+  display: inline-block;
+  -webkit-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  -webkit-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  transform-origin: 0 0;
+  white-space: nowrap;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -25px; }
+
+.bigmenu__description {
+  opacity: 0;
+  visibility: hidden;
+  display: none;
+  background-color: rgba(47, 50, 52, 0.929);
+  color: #fff; }
+
+.bigmenu__item_active .bigmenu__title {
+  color: #ff0; }
+
+.bigmenu__item_active .bigmenu__description {
+  padding: 40px;
+  opacity: 1;
+  visibility: visible;
+  display: block;
+  max-width: 540px; }
